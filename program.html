@@ -37,9 +37,10 @@
   /* Style the collapsible content. Note: hidden by default */
   .content2 {
     padding: 0 18px;
-    display: none;
-    overflow: hidden;
     background-color: #f1f1f1;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
   }
 </style>
 </head>
@@ -497,10 +498,10 @@
     coll[i].addEventListener("click", function() {
       this.classList.toggle("active");
       var content = this.nextElementSibling;
-      if (content.style.display === "block") {
-        content.style.display = "none";
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
       } else {
-        content.style.display = "block";
+        content.style.maxHeight = content.scrollHeight + "px";
       }
     });
   }
