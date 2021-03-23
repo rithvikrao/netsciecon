@@ -51,6 +51,12 @@
   </style>
 <h2>The conference will be hosted at <a href="https://spatial.chat/s/NetSciEconExperimentation">spatial.chat</a>. </h2>
 <h2>(Click the link above to access an experimental space to play around with.)</h2>
+<script>
+  var isChrome = (navigator.userAgent.indexOf("Chrome") != -1);
+  if (!isChrome) {
+    document.write("<h2 style=\"background-color:tomato;\">You are not using Google Chrome! Please switch to Chrome to access the spatial.chat page.</h2>")
+  }
+</script>
 <p>Presentations will last 18 minutes, with 2 minutes for questions and changeovers. There will be a 5 minute break after the first two talks in each session.</p>
 
 <style>
