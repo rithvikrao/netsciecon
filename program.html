@@ -15,34 +15,6 @@
 <meta property="og:site_name" content="6th Annual Conference on Network Science and Economics" />
 <link rel="stylesheet" href="css/localfonts.css" type="text/css" /><link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/default.css" />
-<style>
-  /* Style the button that is used to open and close the collapsible content */
-  .collapsible {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-  }
-
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapsible:hover {
-    background-color: #ccc;
-  }
-
-  /* Style the collapsible content. Note: hidden by default */
-  .content2 {
-    padding: 0 18px;
-    background-color: #f1f1f1;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-</style>
 </head>
 <body>
 <header class="main-header">
@@ -113,7 +85,37 @@
   {
     color: #009;
   } */
-  </style>
+</style>
+
+<style>
+  /* Style the button that is used to open and close the collapsible content */
+  .collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+  /* Style the collapsible content. Note: hidden by default */
+  .content2 {
+    padding: 0 18px;
+    background-color: #f1f1f1;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size:12px;
+  }
+</style>
 
 <table id="hor-minimalist-b" class="center">
   <colgroup><col><col><col><col></colgroup>
@@ -126,15 +128,48 @@
     <tr>
       <td valign="top">10:30 AM to 12:15 PM ET</td>
       <td colspan="3" style="width:81%;" valign="top">
+        <u><strong>Nashville</strong></u>
         <ul>
 
-        <li><strong>Network Topology and Market Structure</strong> <br><i>Junjie Zhou and Yves Zenou</i></li>
-        
-        <li><strong>A model of Dealer Networks</strong> <br><i>Daniele Condorelli</i></li>
-
-        <li><strong>Price Competition and Platform Design in Two-Sided Networks</strong> <br><i>George Charlson</i></li>
-
-        <li><strong>Brokerage</strong> <br><i>Frederic Moisan</i></li>
+          <li><strong>Network Topology and Market Structure</strong> <br><i>Ying-Ju Chen - HKUST, Yves Zenou - Monash, Junjie Zhou - NUS</i></li>
+          <a href="https://sites.google.com/site/yvesbzenou/Network%20Topology%20Market%20Structure-2020-09-11.pdf?attredirects=0">Paper Link</a>
+          <button type="button" class="collapsible">Abstract</button>
+          <div class="content2" style="font-size:12px">
+            We develop a two-stage oligopolistic network competition model
+         where, first, firms simultaneously determine their prices and,
+         then, users connected through a network determine their product's
+         consumption. We show that denser networks (network topology)
+         reduce prices and that a higher number of firms (market structure)
+         reduces prices only when competition is weak. However, the price
+         for the most influential users can increase with the number of
+         firms when competition is very fierce and when there are enough
+         network externalities. We also show that increasing competition
+         always leads to a lower firm's profit while increasing network
+         density leads to a clockwise rotation of the profit curve as a
+         function of the number of firms. Finally, we study the effect of
+         network topology and market structure on price dispersion and
+         determine the optimal network structure from the perspective of
+         both firms and users.
+          </div>
+          <li><strong>(In)efficiency in Dealer Networks</strong> <br><i>Daniele Condorelli - University of Warwick, Andrea Galeotti - London Business School, Ludovic Renou - Queen Mary University</i></li>
+          <button type="button" class="collapsible">Abstract</button>
+          <div class="content2" style="font-size:12px">
+            A single object is traded in a network of dealers, who have private information about their value for it. The number of connections that each dealer has is random and determined, once they purchase the object, by a common degree distribution. Sellers have bargaining power and post mechanisms to potential buyers in their neighborhood. We show that, despite asymmetric information and limited trading opportunities, ex-post efficiency generally attains in the limit as trading becomes more and more frequent, except where the network is a chain of monopolists (i.e. each seller has always precisely one single buyer).
+          </div>
+          <li><strong>Searching for Results: Optimal Platform Design in a Network Setting</strong> <br><i>George Charlson - University of Cambridge</i></li>
+          <a href="https://www.inet.econ.cam.ac.uk/working-paper-pdfs/wp2052.pdf">Paper Link</a>
+          <button type="button" class="collapsible">Abstract</button>
+          <div class="content2" style="font-size:12px">
+            Online platforms, like Airbnb or Amazon Marketplace, increasingly direct users to internal search engines that limit the number of sellers consumers observe. We show that such behaviour is consistent with profit maximisation. To do so, we model buyer-seller interactions as a series bipartite graphs, which are each realised with a probability chosen by the platform owner. Prominent players disproportionately increase competition, which decreases prices. To maximise profit, the platform owner ensures that buyers only observe a consistent number of sellers in every state of the world realised with positive probability. When products are vertically differentiated, the platform owner biases observation towards high-quality products, but doing so reduces prices, and, as a result, the optimal number of sellers in the network. The extent to which platforms highlight high-quality products and the number of sellers they show is a function of product quality dispersion and substitutability.
+          </div>
+          <li><strong>Brokerage and Market Power</strong> <br><i>Syngjoo Choi - Seoul National University, Sanjeev Goyal - University of Cambridge, Frederic Moisan - EMLyon Business School</i></li>
+          <a href="http://www.econ.cam.ac.uk/research-files/repec/cam/pdf/cwpe2005.pdf">Paper Link</a>
+          <button type="button" class="collapsible">Abstract</button>
+          <div class="content2" style="font-size:12px">
+            Dominant intermediaries are a de?fining feature of the modern economy. This paper studies the mechanisms that give rise to trading networks with a dominant intermediary. Trades between actors require a direct link or a path that involves intermediaries. Links are costly. Efficiency therefore pushes towards connected networks with few links: this set includes the hub-spoke network, the cycle network and their variants. The hub-spoke network exhibits extreme inequality, while the cycle network yields equal payoffs for all traders.
+         We conduct a large scale experiment on link formation among traders; the game
+         takes place in continuous time and allows for asynchronous choices. The main fi?nding is that the pricing protocol - the rule dividing the surplus between traders and intermediaries - determines which of these two networks arises.
+          </div>
       
       </ul></td>
     </tr>
@@ -173,15 +208,33 @@
     <tr>
       <td valign="top">2:15 PM to 4:00 PM ET</td>
       <td colspan="3"valign="top">
+        <u><strong>Nashville</strong></u>
         <ul>
 
-        <li><strong>International Trade and Social Connectedness</strong> <br><i>Rob Richmond</i></li>
-        
-        <li><strong>How Automation that Substitutes for Labor Affects Production Networks, Growth, and Income Inequality</strong> <br><i>Matthew O. Jackson and Zafer Kanik</i></li>
-
-        <li><strong>Capability Accumulation and Conglomeratization in the Information Age</strong> <br><i>Matt Elliott</i></li>
-
-        <li><strong>Earnings Inequality in Production Networks</strong> <br><i>Kevin Lim</i></li>
+        <li><strong>International Trade and Social Connectedness</strong> <br><i>Michael Bailey - Facebook, Abhinav Gupta - NYU Stern, Sebastian Hillenbrand - NYU Stern, Theresa Kuchler - NYU Stern, Robert Richmond - NYU Stern, Johannes Stroebel - NYU Stern</i></li>
+        <a href="https://robertjrichmond.com/papers/InternationalTradeSocialConnectedness.pdf">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We use de-identified data from Facebook to construct a new and publicly available measure of the pairwise social connectedness between 170 countries and 332 European regions. We find that two countries trade more when they are more socially connected, especially for goods where information frictions may be large. The social connections that predict trade in specific products are those between the regions where the product is produced in the exporting country and the regions where it is used in the importing country. Once we control for social connectedness, the estimated effects of geographic distance and country borders on trade decline substantially.
+        </div>
+        <li><strong>How Automation that Substitutes for Labor Affects Production Networks, Growth, and Income Inequality</strong> <br><i>Matthew O. Jackson - Stanford University, Zafer Kanik - University of Glasgow</i></li>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3375523">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We study how advances in labor-substituting (automation) technologies affect production networks. Labor-substituting advances lower the wages of substitutable workers relative to non-substitutable workers, affecting employment in the entire economy, well beyond the production chains adopting the new technologies. As automation progresses, the production network becomes denser, increasing the centralities of producers of automation and their (direct and indirect) suppliers. The growth effects of automation emerge gradually, and the changes in income inequality and overall productivity depend on (i) alternative uses of the replaced labor, and (ii) sectoral compositions of substitutable and non-substitutable workers. These provide explanations for why today's automation is different from historical ones.
+        </div>
+        <li><strong>Capability Accumulation and Conglomeratization in the Information Age</strong> <br><i>Jun Chen - Renmin University of China, Matthew Elliott - Cambridge University, Andrew Koh - Oxford University</i></li>
+        <a href="https://www.dropbox.com/s/1eqkt3466xzzpqk/Manuscript.pdf?dl=0">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          The past twenty years have witnessed the emergence of internet conglomerates fueled by acquisitions. We build a simple theoretical model to study this. Following the resource based view of competitive advantage from the management literature we endow firms with scarce capabilities which drive their competitiveness across markets. Firms can merge to combine their capabilities, spin-off new firms by partitioning their capabilities, or procure unassigned capabilities. We study stable industry structures in which none of these deviations are profitable. We find an upper and lower bound on the size of the largest firm, and show that as markets value more of the same capabilities abrupt increases in these bounds occur.
+        </div>
+        <li><strong>Earnings Inequality in Production Networks</strong> <br><i>Federico Huneeus - Central Bank of Chile, Kory Kroft - University of Toronto, Kevin Lim - University of Toronto</i></li>
+        <a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxsaW1rdm58Z3g6MWFjNGYyNjM2Yjg0NWM0OA">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          This paper investigates the importance of firm-to-firm production network linkages for earnings inequality. We develop a quantitative model in which heterogeneous firms hire workers of different abilities in an imperfectly competitive labor market and source intermediates from heterogeneous suppliers in a production network. The model delivers an earnings equation with a firm-specific wage premium that depends endogenously on both firm productivities and firm-to-firm linkages in the production network. We establish identification of the model parameters and estimate them using linked employer-employee and firm-to-firm transactions data from Chile. Counterfactual simulations using our estimated model show that heterogeneity in network linkages explains 21% of log earnings variance, while passthrough of productivity shocks via network linkages explains between 20-25% of earnings volatility. We also examine the effects of a minimum wage policy and find strong spillover effects to worker earnings above the wage floor, with substitution of materials for labor explaining around 40% of these effects.
+        </div>
       
       </ul></td>
     </tr>
@@ -199,54 +252,121 @@
     <tr>
       <td valign="top">10:30 AM to 12:20 PM ET</td>
       <td style="width:27%;"valign="top">
-        <u><strong>Network Games 1</strong></u>
-        <ul>
-
-        <li><strong>Free Riding in Networks</strong> <br><i>Luca Paolo Merlino</i></li>
+        <u><strong>IO 1 (Nashville)</strong></u><ul>
+        <li><strong>Network Bottlenecks and Market Power</strong> <br><i>Vasco M Carvalho - Cambridge, Matt Elliott - Cambridge, John Spray - IMF</i></li>
         <button type="button" class="collapsible">Abstract</button>
-        <div class="content2">
-          <p>
-            This is the abstract
-          </p>
+        <div class="content2" style="font-size:12px">
+          We consider how a firm’s position in a production network can confer market power. We develop a tractable theory of market power in production networks which introduces the notion of a bottleneck: a firm whose removal from the network leads to a sufficiently large fall in aggregate output such that supply can no longer meet demand. The location of these bottlenecks can depend both on a firm’s immediate connections, and also on the entire structure of the network. We show that the existence of bottlenecks allows not only bottleneck firms to price above marginal cost, but that these distortions allow other non-bottleneck firms to also price above marginal cost in equilibrium. We develop a network algorithm to identify bottlenecks in an economy wide production-network and apply these tools, at scale, in Uganda. We show that bottleneck firms have significantly larger profits, sales, wage bills, and higher mark-ups. They are also located in industries which have fewer new entrants.
         </div>
-
-        <li><strong>Perceived Competition in Networks</strong> <br><i>Yves Zenou</i></li>
-
-        <li><strong>Attack and Interception in Networks</strong> <br><i>Francis Bloch, Bhaskar Dutta, and Kalyan Chatterjee</i></li>
-
-        <li><strong>Contests with network externalities: theory & experiment</strong> <br><i>Luke Boosey</i></li>      
-
-        <li><strong>Persuasion with Verifiable Information</strong> <br><i>Masha Titova</i></li>
-
+        <li><strong>Court Quality and Economic Resilience</strong> <br><i>Dimas Fazio - National University of Singapore, Thiago Silva - Central Bank of Brazil, Janis Skrastins - Washington University in St. Louis</i></li>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3517257">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We investigate how court quality affects the transmission of shocks across firms. Using novel inter-firm wire transfer data, we find that suppliers exposed to natural disasters pass this shock to their customers, particularly when the court system is congested. Evidence suggests that congested courts amplify spillovers through the contracting frictions that customers face with new suppliers and creditors. Subsequently, customers vertically integrate the production of affected inputs and obtain liquidity by selling their accounts receivables. Our results highlight the importance of institutions in facilitating economic resilience.
+        </div>
+        <li><strong>Network-based Hiring; Local Benefits; Global Costs</strong> <br><i>Arun G. Chandrasekhar - Stanford, Melanie Morten - Stanford, Alessandra Peter - IIES Stockholm</i></li>
+        <a href="https://web.stanford.edu/~arungc/CMP.pdf">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Entrepreneurs, particularly in the developing world, often hire from their networks: friends, family, and resulting referrals. Network hiring has two benefits, documented extensively in the empirical literature: entrepreneurs know more about the ability of their network (and subsequently, workers from the network are often positively selected) and network members may be less likely to engage in moral hazard. We study theoretically how network hiring affects the size and composition (i.e., whether to hire friends or strangers) of the firm. Our primary result is that network hiring, while locally beneficial, can be globally inefficient. Because of the existence of a network, entrepreneurs run firms that are weakly too small, rely too much on networks for hiring, and have resulting welfare losses that increase in the quality of the network. Further, if entrepreneurs are uncertain about the true quality of the external labor market, the economy may become stuck in an information poverty trap where forward-looking entrepreneurs or even entrepreneurs in a market with social learning never learn the correct distribution of stranger ability, exacerbating welfare losses. We show that the poverty trap can worsen when network referrals are of higher quality
+        </div>
+        <li><strong>Revenue Volatility under Uncertain Network Effects</strong> <br><i>Opher Baron - University of Toronto, Ming Hu - University of Toronto, Azarakhsh Malekian - University of Toronto</i></li>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3561270">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We study the revenue volatility of a monopolist selling a divisible good to consumers in the presence of local network externalities among consumers. Each consumer’s utility depends on her consumption level as well as
+       the consumption levels of her neighbors in a network through network externalities. In the eye of the seller, there exist uncertainties in the network externalities, which may be the result of unanticipated shocks, or lack of exact knowledge of the externalities. But the seller has to commit to prices ex-ante. We quantify the magnitude of revenue volatility under the optimal pricing in the presence of those random externalities.
+       We consider both a given uncertainty set (from a robust optimization perspective) and a known uncertainty distribution (from a stochastic optimization perspective) and carry out the analysis separately. For a given uncertainty set, we show that the worst case of revenue fluctuation is determined by the largest eigenvalue
+       of the matrix that represents the underlying network. Our results indicate that in networks with a smaller largest eigenvalue, the monopolist has a less volatile revenue. For the known uncertainty, we model the random noise in the form of a Wigner matrix and investigate large networks such as social networks. For such
+       networks, we establish that the expected revenue is the sum of the revenue associated with the underlying expected network externalities and a term that depends on the noise variance and the weighted sum of all walks of different lengths in the expected network. We demonstrate that in a less connected network the revenue is less volatile to uncertainties, and perhaps counter-intuitively, the expected revenue increases with the level of uncertainty in the network. We show that a seller in the two settings favors the opposite type
+       of network. In particular, if the underlying network is such that all the edge weights equal 1 (resp., the sum of all the edge weights is fixed), the seller in the robust optimization setting prefers more (resp., less) asymmetry in the underlying network, while the seller in the stochastic optimization setting prefers less
+       (resp., more) asymmetry in the underlying network.
+        </div>
+        <li><strong>The Network Origins of Entry</strong> <br><i>Arthur Campbell - Monash, Philip Ushchev - HSE, Yves Zenou - Monash</i></li>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We develop a simple model of entry barriers under social learning via word-of-mouth (WOM). The incumbent's product is known to the public, while success of a potential entrant hinges on customers' awareness of a new product. We model WOM as percolation on random graphs. The market outcomes taxonomy depends on social network structure via two sufficient statistics. To explicitly characterize the domains of blockaded, deterred and accommodated entry, we focus on multinomial-logit (MNL) demand structure. As for welfare, the
+       aggregate consumer surplus remains constant when the network is sparse, then increases with network density, and varies ambiguously when the network gets very dense.
+        </div>
       </ul></td>
       <td style="width:27%;"valign="top">
-        <u><strong>Network Formation</strong></u>
-        <ul>
-
-        <li><strong>Coalition-proof Stable Networks</strong> <br><i>Chenghong Luo</i></li>
-
-        <li><strong>A Simple Model of the Power Elite</strong> <br><i>Sihua Deng</i></li>      
-
-        <li><strong>Multiplex Formation</strong> <br><i>Hector Tzavellas</i></li>
-
-        <li><strong>Shadow Links</strong> <br><i>Vincent Vannetelbosch</i></li>      
-
-        <li><strong>Segregation versus Assimilation in Friendship Networks with Farsighted and Myopic Agents</strong> <br><i>Ana Mauleon</i></li>      
+        <u><strong>Network Formation (Bloomington)</strong></u><ul>
+        <li><strong>Coalition-Proof Stable Networks</strong> <br><i>Chenghong Luo - UCLouvain & Ca’Foscoari University, Ana Mauleon - UCLouvain & Saint-Louis, Vincent Vannetelbosch - UCLouvain</i></li>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3619207">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We propose the notion of coalition-proof stability for predicting the
+       networks that could emerge when group deviations are allowed. A network is
+       coalition-proof stable if there exists no coalition which has a credible
+       group deviation. A coalition is said to have a credible group deviation if
+       there is a profitable group deviation to some network and there is no
+       subcoalition of the deviating players which has a subsequent credible group
+       deviation. Coalition-proof stability is a coarsening of strong stability.
+       There is no relationship between the set of coalition-proof stable networks
+       and the set of networks induced by a coalition-proof Nash equilibrium of
+       Myerson's linking game. Contrary to coalition-proof stability,
+       coalition-proof Nash equilibria of Myerson's linking game tend to support
+       unreasonable networks.
+        </div>
+        <li><strong>A Simple Model of the Power Elite</strong> <br><i>Sihua Ding - Nankai, Marcin Dziubiński - Warsaw, Sanjeev Goyal - Cambridge</i></li>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          A number of empirical studies argue that, in modern democratic societies, decision making power is concentrated in a very small group of individuals. The
+       sociologist, C. Wright Mills, referred to this group as the `Power Elite'. Opinion is divided on the impact of such concentration. On the one hand, there is the view that such cohesion facilitates the spread of information, best practices and of cooperative behaviour. On the other hand, others have argued that such personal connections sustain favouritism and perpetuate inequality. What are the determinants of exclusive structures and the emergence of dominant groups? Are such structures socially desirable? We propose a model of club membership to explore these questions. The model has two types of active agents: individuals seeking to join clubs and club owners. We study efficient and stable club memberships. Our main result is that a stable club membership structure always has the power elite feature, but such a structure is not necessarily efficient.
+        </div>
+        <li><strong>Multiplex Formation</strong> <br><i>Sumit Joshi - George Washington University, Ahmed Saber Mahmud - Johns Hopkins, Hector Tzavellas - George Washington University</i></li>
+        <a href="https://drive.google.com/file/d/1ptM-AmBTUCSOOge_I88hnwAlIStMEaV2/view">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Economic agents are typically connected in a multiplex, i.e. multiple interrelated networks. Network pairs are related due to strategic substitutability or complementarity of actions undertaken on each. Socioeconomic outcomes are often shaped by agents connections in the full multiplex rather than in
+       just one constituent network. We examine how an initial seed network prompts link formation on the multiplex and any initial asymmetry is either maintained or flipped in its different layers. We characterize duplex and triplex equilibria, demonstrating that positive (negative) externalities emanating
+       from strategic complementarity (substitutability) in actions between network pairs produce symmetric(flipped) architectures in which high-centrality agents in one network occupy high (low) centrality positions in the other. Extending to the full multiplex, we show that if the first coupling between networks is
+       one of strategic complementarity, then all non-empty layers of the multiplex display symmetric architectures thus perpetuating any initial asymmetry in the seed network. If the first coupling is one of strategic substitutes, then we characterize a class of balancedmultiplexes and identify the coexistence of both symmetric and flipped layers in equilibrium. Finally, we examine the implications of the architecture for inequality in outcomes such as payoffs.
+        </div>
+        <li><strong>Shadow Links</strong> <br><i>Manuel Foerster - Bielefeld University, Ana Mauleon - UC Louvain & Saint-Louis, Vincent Vannetelbosch - UC Louvain</i></li>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We propose a framework of network formation where players can form two types of links: public links observed by everyone and shadow links generally not observed by others. We introduce a novel solution concept called rationalizable conjectural pairwise stability, which generalizes Jackson and Wolinsky (1996)’s pairwise stability notion to accommodate shadow links. We first show that a network is stable if there exist beliefs such that each player conjectures to be in a network that is stable under correct beliefs, and in which she does not want to alter her links unilaterally. We then derive a mechanism to construct a stable network that is not stable under correct beliefs. Third, we establish that the set of stable networks is shrinking in the players’ observation radius. Finally, we illustrate our framework in the context of two specific models and show that players may over(under)estimate others’ connections and hence under(over)connect.
+        </div>
+        <li><strong>Segregation versus Assimilation in Friendship Networks with Farsighted and Myopic Agents</strong> <br><i>Chenghong Luo - UC Louvain, Ana Mauleon - UC Louvain & Saint-Louis, Vincent Vannetelbosch - UC Louvain</i></li>
+        <a href="https://alfresco.uclouvain.be/alfresco/service/guest/streamDownload/workspace/SpacesStore/a83bdf52-dffc-4b05-987c-1c1de32a2487/coreDP2020_17web.pdf?guest=true">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We reconsider de Marti and Zenou (2017) model of friendship network formation where individuals belong to two different communities. Benefits from direct and indirect connections decay with distance while costs of forming links depend on community memberships. Individuals are now either farsighted or myopic when deciding about the friendship links they want to form. When all individuals are myopic many inefficient friendship networks (e.g. complete segregation) can arise. When the larger (smaller) community is farsighted while the smaller (larger) community is myopic, the friendship network where the myopic community is assimilated into the farsighted community is the unique stable network when inter-community costs are large. In fact, farsightedness helps the society to avoid ending up segregated. Once inter-community costs are small enough, the complete integration network become stable. Finally, when all individuals are farsighted, the friendship network where the smaller community ends up being assimilated into the dominant community is likely to arise.
+        </div>
       </ul></td>
       <td style="width:27%;"valign="top">
-        <u><strong>IO 1</strong></u>
-        <ul>
-
-        <li><strong>Network Bottlenecks and Market Power</strong> <br><i>Vasco Carvalho, Matt Elliott, and John Spray</i></li>
-        
-        <li><strong>Court Congestion, Transmission of Shocks, and Vertical Integration</strong> <br><i>Janis Skrastins</i></li>
-
-        <li><strong>When Firms Rely on Networks to Overcome Contracting Frictions: Effects on Organizational Structure, Learning Dynamics, and Growth</strong> <br><i>Arun Chandrasekhar</i></li>      
-        
-        <li><strong>Revenue Management under Random Network Effects</strong> <br><i>Azarakhsh Malekian</i></li>
-
-        <li><strong>Network Origins of Entry</strong> <br><i>Philip Ushchev</i></li>
+        <u><strong>Network Games 1 (Stanford)</strong></u><ul>
+        <li><strong>Free Riding in Networks</strong> <br><i>Markus Kinateder - Navarra</i></li>
+        <a href="https://www.dropbox.com/s/b7btqbey9j0m5il/Free_Riding_in_Networks.pdf?dl=0">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Players allocate their budget to links, a local public good and a private good. A player links to free ride on others’ public good provision. When both goods are normal, any Nash equilibrium in which players establish even weakly profitable links is a core-periphery graph, where large contributors link to each other, while others link to them. Poorer players can be larger contributors if linking costs are sufficiently high. Finally, in large societies, free riding reduces inequality only in networks in which it is initially low; otherwise, richer players benefit more, as they can afford more links.
+        </div>
+        <li><strong>Perceived Competition in Networks</strong> <br><i>Olivier Bochet - NYU Abu Dhabi, Mathieu Faure - ASME, Yan Long - Huazhong University, Yves Zenou - Monash</i></li>
+        <a href="https://sites.google.com/site/obochet2/Perceived.pdf">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Agents compete for the same resources and are only aware of their direct neighbors in a network. We propose a new equilibrium concept, referred to as peer-consistent equilibrium (PCE). In a PCE, each agent chooses an effort level that maximizes her subjective perceived utility and the effort levels of all individuals in the network need to be consistent. We decompose the network into communities and completely characterize peer-consistent equilibria by identifying which sets of agents can be active in equilibrium. An agent is active if she either belongs to a strong community or if few agents are aware of her existence. We show that there is a unique stable PCE. We provide a behavioral foundation of eigenvector centrality, since, in any stable PCE, agents’ effort levels are proportional to their eigenvector centrality in the network.
+        </div>
+        <li><strong>Attack and Interception in Networks</strong> <br><i>Francis Bloch - Université Paris 1 and Paris School of Economics, Kalyan Chatterjee - Penn State, Bhaskar Dutta - Ashoka and Warwick</i></li>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          This paper studies a game of attack and interception in a network, where a single attacker chooses a target and a path, and each node chooses a level of protection. We show that the Nash equilibrium of the game exists and is unique. It involves a mixed strategy of the attacker except when one target has a very high value relative to others. We characterize equilibrium attack paths and attack distributions as a function of the underlying network and target values. We also show that adding a link or increasing the value of a target may harm the attacker - a comparative statics effect which is reminiscent of Braess’s paradox in transportation economics. Finally, we contrast the Nash equilibrium with the equilibria of two variations of the model: one where nodes make sequential protection decisions upon observing the arrival of a suspicious object, and one where all nodes cooperate in defense.
+        </div>
+        <li><strong>Contests with Network Externalities - Theory & Experiment</strong> <br><i>Luke Boosey - FSU, Christopher Brown - Purdue</i></li>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          In a standard model of competitive contests, participants who do not win are assumed to be indifferent between allocations with respect to the identity of the winner. Yet, there are many important settings where the prize generates identity-dependent externalities for other (non-winning) players. We consider Tullock (1980) contests in which players are connected within a network. The prize generates an externality (which may be positive or negative) that affects the payoffs of any players who are connected to the winner of the contest. We characterize Nash equilibria and provide sufficient conditions for uniqueness in the resulting network game, which is characterized by non-linear best replies. Our results extend beyond those established in the literature for network games with linear best replies, in part by observing that while the game is not a potential game, it is a best-response potential game. We focus special attention on two broad classes of networks and derive comparative statics predictions based on the network structure and the size (and sign) of the externality. We then design and conduct a lab experiment, varying the network and the externality in order to test the comparative statics predictions and explore the interaction between network characteristics, externality size, and investment. Our results provide robust support for the comparative statics of the model, although there is substantial over-investment (on average) relative to point predictions, as is typically observed in standard contest experiments. Nevertheless, we also observe differential rates of over-investment across treatment conditions. We discuss two key explanations for these findings; ``joy of winning" and social preferences. While the former has become a popular explanation for behavior in contests, the latter is a novel contributing factor that emerges due to the presence of externalities in the environment.
+        </div>
+        <li><strong>Persuasion with Verifiable Information</strong> <br><i>Maria Titova - UCSD</i></li>
+        <a href="https://maria-titova.com/assets/pdf/JMP_titova.pdf">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          This paper studies persuasion with verifiable information. An informed sender with state-independent preferences sends private verifiable messages to multiple receivers attempting to convince them to approve a proposal. I find that every equilibrium is outcome equivalent to a direct equilibrium, in which the sender tells each receiver what to do, and receivers obediently follow their recommendations. This allows me to characterize the full equilibrium set. The sender-worst equilibrium outcome is one in which information unravels, and receivers act as if under complete information. The sender-preferred equilibrium outcome is the commitment outcome of the Bayesian persuasion game. In the leading application, I study targeted advertising in elections and show that by communicating with voters privately, a challenger may win elections that are unwinnable with public messages. As the electorate becomes more polarized, the challenger can swing unwinnable elections with a higher probability.
+        </div>
       </ul></td>
+      
     </tr>
     <tr>
     <td valign="top">12:20 PM to 12:50 PM ET</td>
@@ -282,41 +402,81 @@
     <tr>
       <td valign="top">2:40 PM to 4:00 PM ET</td>
       <td style="width:27%;"valign="top">
-        <u><strong>Peer Effects</strong></u>
-        <ul>
+        <u><strong>Financial Networks 1 (Nashville)</strong></u><ul>
+        <li><strong>Contagion in the European Sovereign Debt Crisis: A Structural Network Analysis</strong> <br><i>Brent Glover - Carnegie Mellon, Seth Richards-Shubik - Lehigh</i></li>
+        <a href="https://www.lehigh.edu/~ser315/Contagion_2020.pdf">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We use a network model of credit risk to measure market expectations of the potential spillovers from a sovereign default. Specifically we develop an empirical version of the Eisenberg and Noe (2001) framework for financial contagion, which emphasizes a direct mechanism that operates through balance sheets. We estimate the model with data on sovereign credit default swap spreads and the detailed structure of financial linkagesamong thirteen European sovereigns from 2005 to 2011. Simulating the estimated model, we find that a sovereign default typically generates small spillovers to other sovereigns based on this mechanism, but there were non-trivial effects on the credit risk of Portugal.
+        </div>
+        <li><strong>Origins of International Factor Structures</strong> <br><i>Zhengyang Jiang - Northwestern, Robert Richmond - New York University</i></li>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3404207">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We develop and test a model of the global trade network. This model connects international comovements of quantities and asset prices to a simple measure of network closeness, constructed from observed trade weights. We report three findings: (1) Countries that are closer in the network tend to have more correlated consumption growth rates, more correlated stock returns, and more correlated exchange rate movements. (2) International comovements can be decomposed into a component driven by primitive productivity shocks and a component due to network transmissions. Asset price correlations tend to be explained by the network structure, while consumption correlations by the correlations of primitive shocks. (3) The trade network generates factor structures in equity returns and exchange rate movements. It helps to explain the existence of the dollar and the carry factors, and gives rise to regional factors. These findings offer a network-based account of the origins of factor structures in international economic quantities and asset prices.
+        </div>
+        <li><strong>Portfolio Allocation and Systemic Risk in a Financial Network</strong> <br><i>Jorge Lorca - Central Bank of Chile, Emerson Melo - Indiana University Bloomington</i></li>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We study optimal portfolio allocation for a set of investors embedded in a network of cross-ownerships along ex post financial returns. Departing from previous literature we model investor preferences in terms of expected shortfall, a widely used measure in professional risk management. We analyze the strategic game induced by the network structure and agents’ preferences, which main feature comprises tractability. Our contribution is threefold: First, we show the existence and uniqueness of a Nash Equilibrium for the ensuing game in the financial network considered, and we characterize the comparative statics in such equilibrium. Second, we study systemic risk as measured by the aggregate expected shortfall which is minimized by a social planner. We finally characterize the gap between the planner’s and the decentralized solution, where we propose Pigouvian-like taxation to achieve the efficient portfolio allocation. In sum, instead of analyzing the resilience of a given financial system posed as a network, we gauge into the origin of shocks by modeling decision making at the individual level by means of the actual tools for portfolio allocation in the risk management industry. Regardless of this modeling approach, we are able to study equilibria, systemic risk and efficiency.
+        </div>
+        <li><strong>Structure and Dynamics of Contagion in Financial Networks with Implications for Systemic Risk</strong> <br><i>Victor Amelkin - Amazon, Santosh Venkatesh - University of Pennsylvania, and Rakesh Vohra - University of Pennsylvania</i></li>
 
-        <li><strong>Network Peer Effects without Network Data: Identification, Estimation, and Validation Via Graphical Lasso Network-Detection</strong> <br><i>Sida Peng and Alan Griffith</i></li>
-        
-        <li><strong>On the Identification and Estimation of Endogenous Peer Effects in Multiplex Networks</strong> <br><i>Juan Estrada Sosa</i></li>
-
-        <li><strong>Social Networks and the Stepping Stone Effect</strong> <br><i>Anton Badev</i></li>      
-
-        <li><strong>Tapping into Peer Influence: Designing Online Communities for Inducing Effort</strong> <br><i>Pinar Yildirim</i></li>
       </ul></td>
       <td style="width:27%;"valign="top">
-        <u><strong>Technology Applications</strong></u>
-        <ul>
-
-        <li><strong>Digital Privacy</strong> <br><i>Ruslan Momot</i></li>
-        
-        <li><strong>The Economics of Data Externalities</strong> <br><i>Shota Ichihashi</i></li>
-
-        <li><strong>Research Spillovers, Two Ways: Evidence from Targeted Research Subsidies</strong> <br><i>Kyle R. Myers and Lauren Lanahan</i></li>  
-
-        <li><strong>Getting Blockchain Incentives Right</strong> <br><i>Bryan Routledge, Zahra Ebrahimi, and Ariel Zetlin-Jones</i></li>
+        <u><strong>Peer Effects (Bloomington)</strong></u><ul>
+        <li><strong>Network Peer Effects without Network Data: Identification, Estimation, and Validation via Graphical Lasso Network-Detection</strong> <br><i>Alan Griffith - University of Washington, Sida Peng - Microsoft Research</i></li>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Typical network-based peer effects studies require network data, and the expense of collecting such data is often a prohibitive barrier to such analyses. Recent methods that infer the network hold forth the promise of allowing for analysis of peer effects in the absence of network data, and we contribute to these methods in three ways. First, we provide a comprehensive discussion of tradeoffs in identification, where identification proceeds from a variance decomposition. Second, we propose a novel algorithm, the Latent Graphical LASSO, to simultaneously estimate a sparse network with a latent factor structure. Third, we implement our method in two real datasets, showing that it performs credibly in detecting nominated friendships as well as detecting plausible links at a much higher rate than implausible ones. These results hold the potential to vastly expand the settings in which empirical researchers can study network-based peer effects.
+        </div>
+        <li><strong>On the Identification and Estimation of Endogenous Peer Effects in Multiplex Networks</strong> <br><i>Juan Estrada - Emory University, Kim P. Huynh - Bank of Canada, David T. Jacho-Chavez - Emory University, Leonardo Sanchez-Aragon - ESPOL University </i></li>
+        <a href="https://kphuynh.pages.iu.edu/rsch/multiplex_ecmt.html">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We propose a novel method to estimate and identify a linear-in-means model with endogenously formed social interactions. Identification relies on the full observability of a set of different network links that is exogenous in the traditional fashion. We use a two-layered multiplex network structure to propose a Generalized 3-Stage-Least-Squares (G3SLS). We apply the estimator with widely-used existing statistical software since an explicit characterization and estimation of a network formation model is not required. Monte Carlo exercises confirm the consistency and asymptotic normality of the G3SLS estimator. We conduct an empirical application and ?find positive and significant peer effects in citations among research articles published in top general interest journals in economics. We ?find that articles published with gender-diverse authors receive roughly between 15% to 22% more citations than their same-gender counterparts 8 years post-publication.
+        </div>
+        <li><strong>Social Networks and the Stepping Stone Effect: The Case of Tobacco and Marijuana</strong> <br><i>Anton Badev - Federal Reserve Board</i></li>
+        <a href="www.antonbadev.net">Paper Link</a> | <a href="www.antonbadev.net">Additional Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          I empirically study the role of the social network in generating a stepping stone effects where the consumption of one drug is associated with consumption of another drug. The proposed framework, an adaptation of Badev (2020), allows to isolate the influences of the (endogenous) social environment, e.g. a tobacco smoker social environment may be more tolerant to drug use and/or may provide an easier access of marijuana supplies, from complementarities in consumption. I use the estimated model to evaluate the equilibrium response of the social network to policies narrowly targeting specific drug consumption, e.g. the effect of an increase in tobacco prices may, through altering the social fabric, penetrate to a wider set of risky activities such as marijuana consumption. The case of tobacco and marijuana smoking is particularly relevant because marijuana prices are not directly observed (and cannot be regulated) and an increase in tobacco price may have unintended effects on marijuana smoking prevalence.
+        </div>
+        <li><strong>Social Network Design for Inducing Effort</strong> <br><i>Pinar Yildirim - University of Pennsylvania, Max Wei - University of Southern California, Christophe Van den Bulte - University of Pennsylvania, Joy Lu - Carnegie Mellon University</i></li>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2791781">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Many companies create and manage communities where consumers observe and exchange information about the effort exerted by other consumers. Such communities are especially popular in the areas of fitness, education, dieting, and financial savings. We study how to optimally structure such consumer communities when the objective is to maximize the total or average amount of effort expended. Using network modeling and assuming peer influence through conformity, we find that the optimal community design consists of a set of disconnected or very loosely connected sub-communities, each of which is very densely connected within. Also, each sub-community in the optimal design consists of consumers selected such that their “standalone” propensity to exert effort correlates negatively with their propensity to conform and correlates positively with their propensity to influence others.
+        </div>
       </ul></td>
       <td style="width:27%;"valign="top">
-        <u><strong>Financial Networks 1</strong></u>
-        <ul>
-
-        <li><strong>Contagion in the European Sovereign Debt Crisis</strong> <br><i>Seth Richards-Shubik</i></li>
-        
-        <li><strong>Origins of International Factor Structures</strong> <br><i>Zhengyang Jiang and Robert Richmond</i></li>
-
-        <li><strong>Portfolio Allocation and Systemic Risk in a Financial Network</strong> <br><i>Jorge Luca</i></li>      
-
-        <li><strong>Structure and Dynamics of Contagion in Financial Networks with Implications for Systemic Risk</strong> <br><i>Victor Amelkin, Santosh Venkatesh, and Rakesh Vohra</i></li>
+        <u><strong>Technology Applications (Stanford)</strong></u><ul>
+        <li><strong>Digital Privacy</strong> <br><i>Itay P. Fainmesser - Johns Hopkins, Andrea Galeotti - London Business School, Ruslan Momot - HEC Paris</i></li>
+        <a href="https://ssrn.com/abstract=3459274">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We study the incentives of a digital business to collect and protect users' data. The users' data the business collects improves the service it provides to consumers, but it may also be accessed, at a cost, by strategic third parties in a way that harms users, imposing endogenous users' privacy costs. We characterize how the revenue model of the business shapes its optimal data strategy: collection and protection of users' data. We compare the optimal data strategy of the business with the social optimum and show that a two-pronged regulatory policy, which combines a minimal data protection requirement with a tax proportional to the amount of data collected, restores efficiency.
+        </div>
+        <li><strong>The Economics of Data Externalities</strong> <br><i>Shota Ichihashi - Bank of Canada</i></li>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3778397">Paper Link</a> | <a href="https://shotaichi.weebly.com/">Additional Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          A firm buys data from consumers to learn about some uncertain state of the world. There are data externalities, whereby data of some consumers reveal information about other consumers' data. I characterize data externalities that maximize or minimize consumer surplus and the firm’s profit. I use the result to solve an information design problem in which the firm chooses what information to buy from consumers, balancing the value and price of information. The firm collects no less information than the efficient amount. In some cases we can solve the firm’s data collection problem with a two-step concavification method.
+        </div>
+        <li><strong>The Spillovers from R&D Grants to Small Businesses Reach Far Across Geographic and Technological Space</strong> <br><i>Kyle Myers - Harvard University, Lauren Lanahan - University of Oregon</i></li>
+        <a href="https://tny.sh/UQXaeJQ">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We quantify the magnitude of spillovers created by R&D grants to small businesses from the US Department of Energy. We identify exogenous variation in funding due to non-competitive matching policies, and capture spillovers across geographic and technological space without relying on any paper trail. Our estimates indicate that, for every one patent produced by grant recipients, roughly three more are produced by others who benefited from the recipients’ R&D. US inventors as a whole produce roughly sixty percent of all new patents. Moreover, many of these new patents are quite distant from the technological area initially targeted by the grants.
+        </div>
+        <li><strong>Getting Blockchain Incentives Right</strong> <br><i>Zahra Ebrahimi - Carnegie Mellon University, Bryan R. Routledge - Carnegie Mellon University, Ariel Zetlin-Jones - Carnegie Mellon University</i></li>
+        <a href="https://www.andrew.cmu.edu/user/azj/files/Blockchain_erz.pdf">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Blockchain represents a distributed ledger or database technology that allows a group of self-interested users to maintain a ledger without trusted party such as a bank. In this paper, we develop a new, game-theoretic formulation of any blockchain where each user decides how to update the distributed ledger. Blockchains are useful only in so far as the updating strategies of users attain consensus---users agree on which version of the ledger is ``correct''---and permanence---users do not have incentives to omit or modify past data. We show currently-implemented strategies---longest chain rules---do not achieve consensus or permanence when users are sufficiently heterogeneous. We go on to prove existence of new equilibrium strategies that attain both consensus and permanence for any degree of heterogeneity. In practice, these equilibrium strategies are robust to so-called 51\% attacks. Our results shed light on the important role economic incentives play in determining the resilience of blockchain ledgers.
+        </div>
       </ul></td>
+      
     </tr>
   </tbody>
 </table>
@@ -332,41 +492,86 @@
     <tr>
       <td valign="top">10:30 AM to 11:50 AM ET</td>
       <td style="width:27%;"valign="top">
-        <u><strong>Learning 1</strong></u>
-        <ul>
-
-        <li><strong>Homophily in Information Networks: Herding in Decisions and Resulting Immobility and Inequality</strong> <br><i>Yunus C. Aybas and Matthew O. Jackson</i></li>
-        
-        <li><strong>Optimal Verification of Rumors in Networks</strong> <br><i>Luca Merlino, Paolo Pin, and Nicole Tabasso</i></li>
-  
-        <li><strong>Aggregative Efficiency of Bayesian Learning in Networks</strong> <br><i>Kevin He</i></li>      
-  
-        <li><strong>Information Aggregation in Social Networks</strong> <br><i>Svetlana Pevnitskaya</i></li>
+        <u><strong>Development (Nashville)</strong></u><ul>
+        <li><strong>Casting a Wider Net; Sharing Information Beyond Social Networks</strong> <br><i>Manzoor Dar - ICRISAT, Alain de Janvry - Berkeley, Kyle Emerick - Tufts, Erin Kelley - World Bank, Elisabeth Sadoulet - Berkeley</i></li>
+        <a href="https://580ac0f3-b858-4661-9ce9-79f3d7a4dbed.filesusr.com/ugd/9a2b09_c0a96f406d4e4c47a34191d9f9b87bc0.pdf">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Can community members be induced to share information beyond their existing social networks? Using a field experiment in Bangladesh, we show that demonstration plots in farmers' fields -- a method where the first users of a new seed variety cultivate it side-by-side with an existing variety -- can trigger information exchange beyond existing peer groups. We compare this method with the common approach of introducing new technologies with influential farmers within the network. Using the complete social networks of about 22,000 farmers, we show that demonstration plots --- when cultivated by randomly selected farmers --- improve knowledge by just as much as improved seeding with more influential farmers. We combine this diffusion experiment with an impact experiment, and show that demonstration plots and improved seeding reach the farmers that are less likely to benefit from adoption.
+        </div>
+        <li><strong>Financial Technology Adoption</strong> <br><i>Sean Higgins - Northwestern</i></li>
+        <a href="https://seankhiggins.com/assets/pdf/higgins_FinancialTechnologyAdoption.pdf">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Do coordination failures constrain financial technology adoption? Exploiting the Mexican government's rollout of one million debit cards to poor households from 2009-2012, I examine responses on both sides of the market, and find important spillovers and distributional impacts. On the supply side, small retail firms adopted point-of-sale terminals to accept card payments. On the demand side, this led to a 21% increase in other consumers' card adoption. The supply-side technology adoption response had positive effects on both richer consumers and small retail firms: richer consumers shifted 13% of their supermarket consumption to small retailers, whose sales and profits increased.
+        </div>
+        <li><strong>Propagation and Insurance in Village Networks</strong> <br><i>Cynthia Kinnan - Tufts, Krislert Samphantharak - UCSD, Robert Townsend - MIT, Diego Vera-Cossio - IADB</i></li>
+        <a href="https://drive.google.com/file/d/14-3DXKI-bCeL0vGrWKbaZWIz-hqF_thK/view?usp=sharing">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          In village economies, insurance networks are key to smoothing shocks, while production networks can propagate shocks. We show that a significant health expenditure shock to one household propagates to other linked households via supply-chain and labor networks. Imperfectly insured households adjust production decisions---cutting input spending and reducing labor hiring---affecting households with whom they trade inputs and labor. Household businesses proximate to shocked households in the supply chain network experience reduced local sales, and those proximate in the labor network experience a lower probability of working locally. As a result, indirectly shocked households’ earnings and consumption fall. These declines persist over several years: households appear unable to form new linkages when existing links experience negative shocks. A simple back-of-the-envelope exercise suggests that the total magnitude of indirect effects may be larger than the direct effects and that social (village-level) gains from expanding safety nets such as health insurance may be substantially higher than private (household-level) gains.
+        </div>
+        <li><strong>Direct and Indirect Effects of Financial Access on SMEs</strong> <br><i>Jing Cai - University of Maryland, Adam Szeidl - Central European University</i></li>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We measure the direct and indirect effects of access to finance using a randomized experiment with 3,100 firms in 78 local markets in China, which created variation in firms’ access to a new loan product both within and across markets. Our estimates imply that: (1) Financial access has large positive direct effects. Providing access to a firm increases its revenue by 9 percent, and also significantly increases profits, employment, the number of clients and the use of trade credit. The new loan does not crowd out existing loans. (2) Financial access has large negative indirect effects. Providing access to all of a firm’s competitors in the local market reduces its revenue by 7 percent, and also significantly reduces profits, employment, the number of clients and the use of trade credit. (3) In a model matched to the data in which the indirect effect reflects business stealing, treating all firms in a market would generate—despite nearly offsetting direct and indirect effects on firms—sizeable welfare gains to consumers who benefit from competition.
+        </div>
       </ul></td>
       <td style="width:27%;"valign="top">
-        <u><strong>Development</strong></u>
-        <ul>
-
-        <li><strong>Casting a Wide Net(work): Sharing Information Beyond Social Networks</strong> <br><i>Kyle Emerick</i></li>
-        
-        <li><strong>Financial Technology Adoption</strong> <br><i>Sean Higgins</i></li>
-  
-        <li><strong>Insurance and Propagation in Village Networks</strong> <br><i>Vera Cossio, Diego Alejandro, Cynthia Kinnan, Robert Townsend, and Krislert Samphantharak</i></li>      
-  
-        <li><strong>Direct and Indirect Effects of Financial Access on SMEs</strong> <br><i>Jing Cai</i></li>    
+        <u><strong>Econometrics: Theory (Bloomington)</strong></u><ul>
+        <li><strong>Identification and Estimation of Network Models with Nonparametric Unobserved Heterogeneity</strong> <br><i>Andrei Zeleneev - University College London</i></li>
+        <a href="https://www.princeton.edu/~zeleneev/azeleneev_jmp.pdf">Paper Link</a> | <a href="https://www.azeleneev.com/">Additional Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Homophily based on observables is widespread in networks. Therefore, homophily based on unobservables (fixed effects) is also likely to be an important determinant of the interaction outcomes. Failing to properly account for latent homophily (and other complex forms of unobserved heterogeneity, in general) can result in inconsistent estimators and misleading policy implications. To address this concern, I consider a network model with nonparametric unobserved heterogeneity, leaving the role of the fixed effects and the nature of their interaction unspecified. I argue that the outcomes of the interactions can be used to identify agents with the same values of the fixed effects. The variation in the observed characteristics of such agents allows me to identify the effects of the covariates, while controlling for the impact of the fixed effects. Building on these ideas, I construct several estimators of the parameters of interest and characterize their large sample properties. The suggested approach is not specific to the network context and applies to general two-way models with nonparametric unobserved heterogeneity, including large panels. A Monte-Carlo experiment illustrates the usefulness of the suggested approaches and supports the large sample theory findings.
+        </div>
+        <li><strong>Policy Targeting under Network Interference</strong> <br><i>Davide Viviano - UC San Diego</i></li>
+        <a href="https://arxiv.org/abs/1906.10258">Paper Link</a> | <a href="dviviano.github.io">Additional Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          This paper discusses the problem of estimating treatment allocation rules under network interference. I propose a method with several attractive features for applications: (i) it does not rely on the correct specification of a particular structural model; (ii) it exploits heterogeneity in treatment effects for targeting individuals; (iii) it accommodates arbitrary constraints on the policy function, and (iv) it can also be implemented when network information is not accessible to policy-makers. I establish a set of guarantees on the utilitarian regret, i.e., the difference between the average social welfare attained by the estimated policy function and the maximum attainable welfare, allowing for known and unknown propensity score. I provide a mixed-integer linear program formulation, which can be solved using off-the-shelf algorithms. I illustrate the advantages of the method for targeting information on social networks.
+        </div>
+        <li><strong>Spectral Estimation of Large Stochastic Blockmodels with Discrete Nodal Covariates</strong> <br><i>Angelo Mele - JHU, Lingxin Hao - JHU, Joshua Cape - UPitt, Carey E. Priebe - JHU</i></li>
+        <a href="https://arxiv.org/abs/1908.06438">Paper Link</a> | <a href="https://meleangelo.github.io">Additional Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          n many applications of network analysis, it is important to distinguish between observed and unobserved factors affecting network structure. To this end, we develop spectral estimators for both unobserved blocks and the effect of covariates in stochastic blockmodels. On the theoretical side, we establish asymptotic normality of our estimators for the subsequent purpose of performing inference. On the applied side, we show that computing our estimator is much faster than standard variational expectation--maximization algorithms and scales well for large networks. Monte Carlo experiments suggest that the estimator performs well under different data generating processes. Our application to Facebook data shows evidence of homophily in gender, role and campus-residence, while allowing us to discover unobserved communities. The results in this paper provide a foundation for spectral estimation of the effect of observed covariates as well as unobserved latent community structure on the probability of link formation in networks.
+        </div>
+        <li><strong>Identifying the Latent Space Geometry of Network Models Through Analysis of Curvature</strong> <br><i>Shane Lubold - University of Washington, Arun G. Chandrasekhar - Stanford University, Tyler H. McCormick - University of Washington</i></li>
+        <a href="https://stanford.edu/~arungc/LCM.pdf">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Statistically modeling networks, across numerous disciplines and contexts, is
+       fundamentally challenging because of (often high-order) dependence between connections. A common approach assigns each person in the graph to a position on a low-dimensional manifold. Distance between individuals in this (latent) space is inversely proportional to the likelihood of forming a connection. The choice of the latent geometry (the manifold class, dimension, and curvature) has consequential impacts on the substantive conclusions of the
+       model. More positive curvature in the manifold, for example, encourages more and tighter communities; negative curvature induces repulsion among nodes. Currently, however, the choice of the latent geometry is an a priori modeling assumption and there is limited guidance about how to make these choices in a data-driven way. In this work, we present a method to consistently estimate the manifold type, dimension, and curvature from an empirically relevant class of latent spaces: simply connected, complete Riemannian manifolds of constant curvature. Our core insight comes by representing the graph as a noisy distance matrix based on the ties between cliques. Leveraging results from statistical geometry, we develop hypothesis tests to determine whether the observed distances could plausibly be embedded isometrically in each of the candidate geometries. We explore the accuracy of our approach with simulations and then apply our approach to data-sets from economics and sociology as well as neuroscience.
+        </div>
       </ul></td>
       <td style="width:27%;"valign="top">
-        <u><strong>Econometrics: Theory</strong></u>
-        <ul>
-
-        <li><strong>Identification and Estimation of Network Models with Nonparametric Unobserved Heterogeneity</strong> <br><i>Andrei Zeleneev</i></li>
-        
-        <li><strong>Policy Targeting under Network Interference</strong> <br><i>Davide Viviano</i></li>
-
-        <li><strong>Spectral Inference for Large Stochastic Blockmodels with Nodal Covariates</strong> <br><i>Angelo Mele</i></li> 
-        
-        <li><strong>Identifying Latent Space Geometry in Network Models Using Analysis of Curvature</strong> <br><i>Arun Chandrasekhar</i></li>
+        <u><strong>Learning 1 (Stanford)</strong></u><ul>
+        <li><strong>Homophily in Information Networks: Sampling Herding</strong> <br><i>Yunus C. Aybas - Stanford, Matthew O. Jackson - Stanford</i></li>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Other peoples’ experiences serve as primary sources of information about the potential payoffs to various available opportunities. Homophily in social networks affects both the quality and diversity of information to which people have access. On the one hand, homophily provides higher quality information since observing the experiences of another person is more informative as that person is more similar to the decision maker. On the other hand, homophily can lower the variety of potential actions about which people have information, if people similar to themselves are herding on subsets of actions. We examine the efficiency of people’s decisions as a function of the size of their network, the homophily in that network, and the accuracy of information that they obtain from different people. We identify different circumstances under which homophily helps or harms the efficiency of decision making, and leads to have group herding on actions.
+        </div>
+        <li><strong>Debunking Rumors in Networks</strong> <br><i>Luca P. Merlino - University of Antwerp, Paolo Pin - University of Siena and Bocconi, Nicole Tabasso - Ca’Foscari and University of Surrey</i></li>
+        <a href="https://arxiv.org/abs/2010.01018">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We study the diffusion of a true and a false message (the rumor) in a social network. Upon hearing a message, individuals may believe it, disbelieve it, or debunk it through costly verification. Whenever the truth survives in steady state, so does the rumor. Online social communication exacerbates relative rumor prevalence as long as it increases verification costs, while the impact of homophily depends on the exact verification process. Our model highlights that successful policies in the fight against rumors increase individuals' incentives to verify.
+        </div>
+        <li><strong>Aggregative Efficiency of Bayesian Learning in Networks</strong> <br><i>Krishna Dasaratha - University of Pennsylvania, Kevin He - University of Pennsylvania</i></li>
+        <a href="https://kevinhe.net/papers/aggregative.pdf">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          In social-learning settings where individuals receive private signals and observe network neighbors' actions, the network structure often obstructs information aggregation. We consider sequential social learning with rational agents and Gaussian signals and ask how the efficiency of signal aggregation changes with the network. Rational actions in our model are a log-linear function of observations and admit a signal-counting interpretation of accuracy. This leads to a detailed ranking of networks for social learning based on their aggregative efficiency index. Networks where agents observe multiple neighbors but not their common predecessors confound information, and we show confounding can make learning very inefficient. In a class of networks where agents move in generations and observe the previous generation, aggregative efficiency is a simple function of network parameters: increasing in observations and decreasing in confounding. Generations after the first contribute very little additional information due to confounding, even when generations are arbitrarily large.
+        </div>
+        <li><strong>Information Aggregation in Social Networks</strong> <br><i>Christopher Brown - Purdue, Svetlana Pevnitskaya - FSU</i></li>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We develop a theoretical framework of individual choice under uncertainty for agents connected via a directed network which allows for observational learning. We consider settings where the decision is made once, and thus, learning from repetition is not possible. We obtain properties of networks that determine accuracy of individual choice and information aggregation. Network performance is evaluated using two criteria: individual (final agent) and social (group) choice accuracy, with the result that network properties that enhance performance under one criteria reduce performance under the other. We design an experiment, with network structure as the main treatment variable, to test the theoretical predictions. In all treatments, there is efficiency loss compared to a benchmark in which all individuals are Bayesian. Despite evidence that individuals understand the value of information, they overweight information inferred from observed actions, which is increasing in the number of actions they observe. We find in most cases that group accuracy predictions, conditional on network properties, are supported by the data.
+        </div>
       </ul></td>
+      
     </tr>
     <tr>
     <td valign="top">11:50 AM to 12:30 PM ET</td>
@@ -377,92 +582,164 @@
     <tr>
       <td valign="top">12:30 PM to 1:50 PM ET</td>
       <td style="width:27%;"valign="top">
-        <u><strong>IO 2</strong></u>
-        <ul>
-
-        <li><strong>Product Differentiation, Oligopoly and Resource Allocation</strong> <br><i>Bruno Pellegrino</i></li>
-          
-        <li><strong>Ownership Network and Firm Growth: What Do Five Million Companies Tell About Chinese Economy</strong> <br><i>Franklin Allen, Junhui Cai, Jun "QJ" Qian, Linda Zhao, Wu Zhu</i></li>
-  
-        <li><strong>Subcontracting Network Formation among US Airline Carriers</strong> <br><i>Lei He and Georgia Kosmopoulou</i></li>      
-  
-        <li><strong>The Network Effects of Agency Conflicts</strong> <br><i>Wu Zhu, Rakesh Vohra, and Yiqing Xing</i></li>
-
+        <u><strong>Econometrics: Applied (Nashville)</strong></u><ul>
+        <li><strong>The Role of Referrals in Immobility, Inequality, and Inefficiency in Labor Markets</strong> <br><i>Lukas Bolte - Stanford, Nicole Immorlica - Microsoft Research, Matthew O. Jackson - Stanford</i></li>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3512293">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We study the consequences of job markets' heavy reliance on referrals.
+       Referrals screen candidates and lead to better matches and increased productivity, but disadvantage job-seekers who have few or no connections
+       to employed workers, leading to increased inequality. Coupled with homophily, 
+       referrals also lead to immobility: a demographic group's low current employment rate leads that group to have relatively low future employment as well. We identify conditions under which distributing referrals more evenly across a population not only reduces inequality, but also improves future productivity and economic mobility. We use the model to examine optimal policies, showing that one-time affirmative action policies involve short-run production losses, but lead to long-term improvements in equality, mobility, and productivity due to induced changes in future referrals. We also examine how the possibility of firing workers changes the effects of referrals.
+        </div>
+        <li><strong>The Local Structures of Human Mobility in Chicago</strong> <br><i>James Saxon - Chicago</i></li>
+        <a href="https://saxon.cdac.uchicago.edu/~jsaxon/capital.pdf">Paper Link</a> | <a href="https://doi.org/10.1177/2399808320949539">Additional Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          A large literature establishes the role of mobility in the maintenance of neighborhood social structures. Jane Jacobs famously argued that social capital is maintained through “cross-use of space,” and James Coleman formalized its dependence on the “closure” of human interactions. Since many of these interactions entail human movement,neighborhoods with higher social capital should be distinguishable by more cohesive mobility networks. I observe the mobility of Chicago residents through a large dataset of smartphone users. I construct a neighborhood-level mobility network for the city and characterize neighborhoods according to their local graph structure. Neighborhoods that are well integrated with their surroundings have higher income and educational attainment. Consistent with social capital theory and routine activity theory in criminology, higher local network integration independently predicts lower levels of violent and property crime. The methodologies presented provide a meaningful, replicable, and inexpensive approach to the structural measurement of neighborhood networks and social structure.
+        </div>
+        <li><strong>Peer Effects on Social and Academic Skills</strong> <br><i>Roman Andres Zarate - University of Toronto</i></li>
+        <a href="https://33420b83-37b9-4f59-bbdd-1442ffc2664c.filesusr.com/ugd/c322b8_68a918c75cfb49629be4d19ff1fb5c0f.pdf">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          This paper uses a novel large-scale field experiment at selective public boarding schools in Peru to study how more sociable and higher-achieving peers influence students' outcomes. Peer effects are more pronounced on social skills than on academic performance, and both vary by gender. While more sociable peers lead boys to have more friends and develop better social skills, it does not affect girls' outcomes. These positive effects persist in later-life as more sociable peers reduce the dropout rate and increase enrollment at better colleges for boys. Meanwhile, having higher-achieving peers has, on average, zero effect on boys' academic performance and a negative impact on girls. Gender differences in students' beliefs about their own abilities explain both findings, revealing the importance of self-confidence in peer allocation policies.
+        </div>
+        <li><strong>Recovering Network Structure from Aggregated Relational Data using Penalized Regression</strong> <br><i>Hossein Alidaee - Northwestern, Eric Auerbach - Northwestern, Michael Leung - USC</i></li>
+        <a href="https://arxiv.org/pdf/2001.06052.pdf">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Social network data can be expensive to collect. Breza et al. (2017) propose aggregated relational data (ARD) as a low-cost substitute that can be used to recover the structure of a latent social network when it is generated by a specific parametric random effects model. Our main observation is that many economic network formation models produce networks that are effectively low-rank. As a consequence, network recovery from ARD is generally possible without parametric assumptions using a nuclear-norm penalized regression. We demonstrate how to implement this method and provide finite-sample bounds on the mean squared error for the resulting estimator for the distribution of network links. Computation takes seconds for samples with hundreds of observations Easy-to-use code in R and Python can be found at https://github.com/mpleung/ARD.
+        </div>
       </ul></td>
       <td style="width:27%;"valign="top">
-        <u><strong>Financial Networks 2</strong></u>
-        <ul>
-
-        <li><strong>The Internal Capital Market in Business Groups and the Propagation of Credit Supply Shocks</strong> <br><i>Robert Townsend, Yu Shi, and Wu Zhu</i></li>
-        
-        <li><strong>Bank Lending Networks and the Propagation of Natural Disasters</strong> <br><i>Ivan Ivanov</i></li>
-
-        <li><strong>Interbank trading, collusion, and financial regulation</strong> <br><i>Michael Gofman</i></li>      
-
+        <u><strong>IO 2 (Bloomington)</strong></u><ul>
+        <li><strong>Product Differentiation and Oligopoly: a Network Approach</strong> <br><i>Bruno Pellegrino - University of Maryland</i></li>
+        <a href="https://www.dropbox.com/s/5lciyfj6j7x0a4r/JMP_draft.pdf?dl=0">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          Industry concentration and corporate profit rates have increased, in the United States, over the past two decades. This paper investigates the welfare implications of economic activity concentrating within a few firms that hold market power. I develop a general equilibrium model that features granular firms that compete in a network game of oligopoly, alongside a competitive fringe of atomistic firms with endogenous entry. To capture the degree of product differentiation among the oligopolists, I introduce a Generalized Hedonic-Linear (GHL) demand system. I show how to identify this demand system using a publicly-available dataset that measures product similarity among all public corporations in the US. Using my model, I estimate a large deadweight loss from oligopolistic behavior, equal to 11% of the total surplus produced by public firms. This loss would increase to 20% if all these firms were allowed to collude. The distributional effects of oligopoly are quantitatively important as well: under perfect competition, consumer surplus would double with respect to the oligopolistic equilibrium. I also estimate that the deadweight loss has increased by at least 2.5 percentage points since 1997. The share of surplus that accrues to producers as profits also has increased. Finally, I show how the dramatic rise in startups' proclivity to sell off to incumbents (rather than go public) may have contributed to these trends.
+        </div>
+        <li><strong>Ownership Networks and Firm Growth: What Do Forty Million Companies Tell Us About the Chinese Economy?</strong> <br><i>Franklin Allen - Imperial College London, Junhui Cai - University of Pennsylvania, Xian Gu - Durham University, Jun “QJ” Qian - FISF & Fudan University, Wu Zhu - University of Pennsylvania</i></li>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3465126">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          The finance–growth nexus has been a central question in understanding the unprecedented success of the Chinese economy. With unique data on all the registered firms in China, we build extensive ownership networks, reflecting firm-to-firm equity investment relationships, and show that these networks have been expanding rapidly since the 2000s, with more than five million firms in at least one network by 2017. Entering a network and increasing network centrality, both globally and locally, are associated with higher firm growth. Such positive network effects tend to be more pronounced for high productivity and privately owned firms. The RMB 4 trillion stimulus, mostly in the form of newly issued bank loans and launched by the Chinese government in November 2008 in response to the global financial crisis, partially ‘crowded out’ the positive network effects. Our analysis suggests that equity ownership networks and bank credit tend to act as substitutes for state-owned enterprises, but as complements for privately owned firms in promoting growth.
+        </div>
+        <li><strong>Subcontracting Network Formation Among US Airline Carriers</strong> <br><i>Lei He - York College of Pennsylvania, Georgia Kosmopoulou - University of Oklahoma</i></li>
+        <a href="http://georgiakosmopoulou.oucreate.com/wp-content/uploads/2021/03/Subcontracting-Network-Formation-among-US-Airline-Carriers_final.pdf">Paper Link</a> | <a href="http://georgiakosmopoulou.oucreate.com/">Additional Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          In this paper, we use Bayesian estimation to study subcontracting network formation and pricing decisions in the US airline industry. We find that, a major carrier is more likely to enter a route in subcontracting services if its rivals have already subcontracted while regional carriers prefer to avoid competition. For existing major carriers per-route, self-service and use of subsidiaries are complementary to subcontracting, while code-sharing is a substitute. Carrier similarity and previously formed networks have significant impacts on new network formations. Taking potential endogeneity issues into account, we find that major carriers’ subcontracting behaviors decrease ticket prices by 3.4%.
+        </div>
+        <li><strong>Network Effects of Agency Conflicts</strong> <br><i>Yiqing Xing - Johns Hopkins, Rakesh Vohra - University of Pennsylvania, Wu Zhu - University of Pennsylvania</i></li>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3556298">Paper Link</a> | <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3556298">Additional Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          It is customary to focus on the network of interdependencies between firms to understand how and whether a shock to one firm will propagate to others. This paper argues that agency conflicts at the firm-level and not just the network structure, play a crucial role in amplifying or muting the propagation of exogenous shocks. If firms can take investment decisions in response to an exogenous shock, whether their choices amplify or mute the propagation of the shock will depend on the nature of the agency conflict. When agents in our model are subject to default costs or limited liability, they make investment choices that serve to mitigate the spread of an initial shock. In the face of interest conflicts or moral hazard, however, shocks are amplified by firm-level investment choices.
+       
+       The presence of these agency conflicts counters the role of network structure in the propagation of shocks. For example, prior work argues that denser or more integrated networks facilitate the propagation of shocks. We show that in the presence of interest conflicts, this effect can be reversed. Under some conditions, the aggregate effect of an idiosyncratic shock via propagation does not diminish. This suggests a potentially important role that corporate governance plays in macro fluctuations.
+        </div>
       </ul></td>
       <td style="width:27%;"valign="top">
-        <u><strong>Network Games 2</strong></u>
-          <ul>
-  
-          <li><strong>Graphons and Contagion in Large Networks</strong> <br><i>Selman Erol, Francesca Parise, and Alexander Teytelboym</i></li>
-          
-          <li><strong>Innovation and Strategic Network Formation</strong> <br><i>Krishna Dasaratha</i></li>
-  
-          <li><strong>When Influencers Compete on Social Networks</strong> <br><i>Sudipta Sarangi</i></li>      
-
-          <li><strong>Peer Effects with Endogenous Interactions</strong> <br><i>Vincent Boucher, Asadul Islam, Xiaodong Liu, and Yves Zenou</i></li>
+        <u><strong>Network Games 2 (Stanford)</strong></u><ul>
+        <li><strong>Contagion in Graphons</strong> <br><i>Selman Erol - CMU, Francesca Parise - Cornell, Alex Teytelboym - Oxford</i></li>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3674691">Paper Link</a> | <a href="https://dl.acm.org/doi/abs/10.1145/3391403.3399515">Additional Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We consider a threshold contagion process over networks sampled from a graphon, which we interpret as a stochastic network formation model. We investigate whether the contagion outcome in the sampled networks can be predicted by only exploiting information about the graphon. To do so, we formally define a threshold contagion process on a graphon. Our main result shows that contagion in large but finite sampled networks is well approximated by contagion in a graphon. We illustrate our results by providing analytical characterizations for the extent of contagion and for optimal seeding policies in graphons with finite and with infinite agent types.
+        </div>
+        <li><strong>Innovation and Strategic Network Formation</strong> <br><i>Krishna Dasaratha - University of Pennsylvania</i></li>
+        <a href="https://drive.google.com/file/d/1UOtVYTCwQ8TX1uosrU_mfShfNB0dJD6i/view">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We study a model of innovation with a large number of firms that create new technologies by combining several discrete ideas. These ideas are created via private investment and spread between firms. Firms face a choice between secrecy, which protects existing intellectual property, and openness, which facilitates learning from others. Their decisions determine interaction rates between firms, and these interaction rates enter our model as link probabilities in a learning network. Higher interaction rates impose both positive and negative externalities, as there is more learning but also more competition. We show that the equilibrium learning network is at a critical threshold between sparse and dense networks. At equilibrium, the positive externality from interaction dominates: the innovation rate and welfare would be dramatically higher if the network were denser. So there are large returns to increasing interaction rates above the critical threshold. Nevertheless, several natural types of interventions fail to move the equilibrium away from criticality. One effective policy solution is to introduce informational intermediaries, such as public innovators who do not have incentives to be secretive. These intermediaries can facilitate a high-innovation equilibrium by transmitting ideas from one private firm to another.
+        </div>
+        <li><strong>When Influencers Compete on Social Networks
+      </strong> <br><i>Christophe Bravard - GAEL, Jacques Durieu - CREG, Sudipta Sarangi - DIW Berlin, Corinne Touati - Inria Grenoble</i></li>
+        <a href="https://hal.archives-ouvertes.fr/hal-03162318v1">Paper Link</a>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We study an opinion formation game between a Designer and an Adversary. While the Designer creates the network, both these players can influence network nodes (agents) initially, with ties being broken in favor of the Designer. Final opinions of agents are a convex combination of own opinions and the average network peer opinion. The optimal influence strategy shows threshold effects with non-empty equilibrium networks having star type architectures. By contrast, when the tie-breaking rule favors the Adversary, non-empty equilibrium networks are regular networks. The effect of random interactions between network nodes altering the network is also studied.
+        </div>
+        <li><strong>Peer Effects with Endogenous Interactions</strong> <br><i>Vincent Boucher - Laval University, Asadul Islam - Monash University, Xiaodong Liu - University of Colorado Boulder, Yves Zenou - Monash University</i></li>
+        <button type="button" class="collapsible">Abstract</button>
+        <div class="content2" style="font-size:12px">
+          We present a model where individuals simultaneously chose their targeted socialization efforts and their actions. An important feature of the model is that those two choices are not separable: payoffs from socialization are affected by individuals actions, and actions are affected by socialization choices. We fully characterize the equilibrium set. We show that even if the model typically features multiple equilibria, the model’s parameters can be estimated using a simple Two-Stage Least Square estimator. Moreover, under parametric assumptions on the distribution of the errors, we show that it is possible to infer which equilibrium is played in the data. We present an empirical application looking at productivity spillovers among farmers in Bangladesh.The equilibrium played in the data is the smallest equilibrium. Moreover, we find that omitting the endogenous nature of social interactions leads to important biases on the estimated strength of social interactions.
+        </div>
       </ul></td>
+      
     </tr>
     <tr>
-      <td valign="top">1:50 PM to 2:30 PM ET</td>
+      <td valign="top">1:50 PM to 2:40 PM ET</td>
         <td colspan="3">
-          <i>Socializing</i>
-        </td>
-      </tr>
-    <tr>
-      <td valign="top">2:30 PM to 2:40 PM ET</td>
-        <td colspan="3">
-          <i>Break</i>
+          <i>Break and Socializing</i>
         </td>
       </tr>
       <tr>
         <td valign="top">2:40 PM to 4:00 PM ET</td>
         <td style="width:27%;"valign="top">
-          <u><strong>Learning 2</strong></u>
-          <ul>
-  
-          <li><strong>Reputation Building under Obervational Learning</strong> <br><i>Harry Pei</i></li>
+          <u><strong>Financial Networks 2 (Nashville)</strong></u><ul>
+          <li><strong>Tiered Intermediation in Business Groups and Targeted SME Support</strong> <br><i>Yu Shi - IMF, Robert Townsend - MIT, Wu Zhu - University of Pennsylvania</i></li>
+          <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3722173">Paper Link</a> | <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3722173">Additional Link</a>
+          <button type="button" class="collapsible">Abstract</button>
+          <div class="content2" style="font-size:12px">
+            Using business registry data from China, we show that internal capital markets in business groups can play the role of financial intermediary and propagate corporate shareholders’ credit supply shocks to their subsidiaries. An average of 16.7% local bank credit growth where corporate shareholders are located would increase subsidiaries investment by 1% of their tangible fixed asset value, which accounts for 71% (7%) of the median (average) investment rate among these firms. We argue that equity exchanges is one channel through which corporate shareholders transmit bank credit supply shocks to the subsidiaries and provide evidence to support the channel.
+          </div>
+          <li><strong>Bank Lending Networks and the Propagation of Natural Disaster</strong> <br><i>Ivan Ivanov - Fed Board, Marco Macchiavelli - Fed Board, Joao Santos - NY Fed</i></li>
+          <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3541335">Paper Link</a> | <a href="https://www.ivantivanov.com/">Additional Link</a>
+          <button type="button" class="collapsible">Abstract</button>
+          <div class="content2" style="font-size:12px">
+            We study how syndicated lending networks propagate natural disasters. Natural disasters lead to an increase in corporate credit demand in affected regions. Banks meet the increase in credit demand in part by reducing credit to distant regions, unaffected by disasters. Capital constraints play a key role in this effect as lower-capital banks propagate disasters to unaffected regions to a greater extent. While shadow banks offset the reduction in bank credit supply on term loan syndicates, they do not offset the loss in credit line financing. As a result, corporate credit in unaffected regions falls by approximately 3\%.
+          </div>
+          <li><strong>Commit Not to Compete: Collusion versus Liquidity Sharing via Interbank Markets</strong> <br><i>Dean Corbae - Wisconsin, Michael Gofman - Rochester</i></li>
+          <a href="https://02e278dc-a-bf4ca052-s-sites.googlegroups.com/a/wisc.edu/deancorbae/research/Commit_Not_to_Compete.pdf">Paper Link</a> | <a href="https://02e278dc-a-bf4ca052-s-sites.googlegroups.com/a/wisc.edu/deancorbae/research/Slides_Commit_Not_to_Compete%20-%20Cleveland%20Fed.pdf">Additional Link</a>
+          <button type="button" class="collapsible">Abstract</button>
+          <div class="content2" style="font-size:12px">
+            We provide a simple framework and show empirically that interbank markets can provide a channel for banks to collude in the market for business loans. By lending funds in the interbank market to a competitor, a bank commits not to compete in the private loan market. Interbank interest rates allow banks to split the benefits from such collusion. Using global syndicated loans data, we show that firms paid 31bps higher spread on $239 billion of loans provided by banks that took an interbank loan from a competitor. Our findings have implications for the regulation of interbank markets.
+          </div>
+        </ul></td>
+        <td style="width:27%;"valign="top">
+          <u><strong>Learning 2 (Bloomington)</strong></u><ul>
+          <li><strong>Reputation Building Under Observational Learning</strong> <br><i>Harry Pei - Northwestern</i></li>
+          <a href="https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/4/2519/files/2021/03/Slow_Learning-4.pdf">Paper Link</a>
+          <button type="button" class="collapsible">Abstract</button>
+          <div class="content2" style="font-size:12px">
+            A sequence of myopic buyers decide whether to trust a patient seller after observing previous buyers' actions and some private signals about the seller's current and past actions. With positive probability, the seller is a commitment type who plays his optimal commitment action in every period. When each buyer observes all previous buyers' actions and a bounded subset of the seller's past actions, there exist equilibria in which the patient seller receives his minmax payoff since the informativeness of buyers' actions goes to zero as the seller becomes patient. These low-payoff equilibria are robust as long as each buyer has bounded observation of the seller's past actions and can observe the buyer's action in the previous period. When each buyer can also observe an unboundedly informative private signal about the seller's current-period action, the informativeness of buyers' actions is bounded away from zero and a patient seller receives at least his optimal commitment payoff in all equilibria.
+          </div>
+          <li><strong>Psychological Distance and Deviations from Rational Expectations</strong> <br><i>Harjoat Bhamra - Imperial College London, Raman Uppal - Edhec Business School, Johan Walden - University of California Berkeley</i></li>
+          <a href="https://www.dropbox.com/s/475vneqn23xzvdv/BhamraUppalWalden-DeviationsFromRationalExpectations-2021-03-14.pdf?dl=0">Paper Link</a> | <a href="https://www.ramanuppal.com">Additional Link</a>
+          <button type="button" class="collapsible">Abstract</button>
+          <div class="content2" style="font-size:12px">
+            Empirical evidence shows that households' beliefs deviate from rational expectations. Combining concepts from psychology and robust control, we develop a model where the deviations of beliefs about stock returns from rational expectations are an endogenous outcome of household-firm psychological distance, which encompasses temporal, spatial, and social distance. To make the model testable, we establish the relation between unobservable beliefs and observable portfolio choices. We use portfolio holdings for 405,628 Finnish households and 125 firms to show household-firm spatial distance has a significant distortionary effect on beliefs and welfare, which leads to substantial inequality across households.
+          </div>
+          <li><strong>"Social Connectedness and the Market for News"</strong> <br><i>Rachel Kranton - Duke, David McAdams - Duke</i></li>
+          <button type="button" class="collapsible">Abstract</button>
+          <div class="content2" style="font-size:12px">
+            This paper introduces a simple model of the contemporary news market where consumers share stories in social networks. In this model, consumers want to share true news and producers incur costs to produce true news. News veracity is endogenous, shaped by consumer behavior which filters and spreads news stories, based on more or less accurate private signals as to a story's truth. When producer revenues derive from the total number of consumers who view a story (e.g., revenue from accompanying advertising), veracity is high in networks that are not too dense. In highly dense networks, however, even false news spreads widely, so the incentive for high quality stories is low. Adding third-party misinformation can increase equilibrium true-news production, as consumers respond by being more judicious when sharing stories. When producer revenues come from consumers' actions based on stories (e.g, voting), veracity is higher in dense networks, and consumers make better inferences about news truth.
+          </div>
+          <li><strong>Social Inequality and the Spread of Misinformation</strong> <br><i>James Siderius - MIT, Mohamed Mostagir - UMich</i></li>
+          <a href="https://deepblue.lib.umich.edu/bitstream/handle/2027.42/153794/homophilyR1-v4.pdf?sequence=4&isAllowed=y">Paper Link</a>
+          <button type="button" class="collapsible">Abstract</button>
+          <div class="content2" style="font-size:12px">
+            We study the spread of misinformation in a social network characterized by unequal access to learning resources. Agents use social learning combined with their own signals to uncover an unknown state of the world, and a principal tries to distort this learning process in order to influence their beliefs. A subset of agents throughout the network is endowed with knowledge of the true state. This gives rise to a natural definition of inequality: privileged communities with a large proportion of knowledgeable agents experience a positive externality from their presence and therefore are more resistant to the interference of the principal, whereas marginalized communities who do not have access to these individuals are comparatively disadvantaged. This access is determined by the homophily structure of the network – a highly integrated society has unimpeded access to these knowledgeable agents regardless of which community they reside in, whereas agents in a more segregated society face more restricted access to these resources. We show that the role that inequality plays in the spread of misinformation is highly complex. For instance, communities who hoard resources and deny them to the larger population can end up exposing themselves to more misinformation. On the other hand, while more inequality generally leads to worse outcomes, the prevalence of misinformation in society is non-monotone in the level of inequality. This implies that policies that reduce inequality without completely eradicating it can sometimes leave society more prone to misinformation.
+          </div>
+        </ul></td>
+        <td style="width:27%;"valign="top">
+          <u><strong>Production Networks (Stanford)</strong></u><ul>
+          <li><strong>Industry Returns in Global Value Chains: The Role of Upstreamness and Downstreamness</strong> <br><i>Nicole Branger - University of Muenster, René Marian Flacke - University of Muenster, Paul Meyerhof - University of Muenster, Steffen Windmüller - TUM School of Management</i></li>
+          <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3476690">Paper Link</a> | <a href="https://www.professors.wi.tum.de/fm/team/researcher/steffen-windmueller/">Additional Link</a>
+          <button type="button" class="collapsible">Abstract</button>
+          <div class="content2" style="font-size:12px">
+            This paper studies how upstreamness and downstreamness affect stock returns in global value chains. Up- and downstreamness measure the average distance from final consumption and primary inputs, respectively, and are computed from world input-output tables. We show that downstreamness is a key driver of expected returns around the globe, whereas upstreamness is not. Firms that are farthest away from primary inputs earn approximately 5% higher returns per year than firms that are closest. The effect is found within and across countries and suggests that investors perceive supplier dependence in global value chains as an important source of risk.
+          </div>
+          <li><strong>Disruption and Rerouting in Supply Chain Networks</strong> <br><i>John Birge - Chicago, Agostino Capponi - Columbia, Peng-Chu Chen - U. of Hong Kong</i></li>
+          <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3669363">Paper Link</a>
+          <button type="button" class="collapsible">Abstract</button>
+          <div class="content2" style="font-size:12px">
+            We study systemic risk in a supply chain network where firms are connected through purchase orders. Firms can be hit by cost or demand shocks, possibly leading to defaults. These shocks propagate through the supply chain network via input-output linkages between buyers and suppliers. Firms endogenously take contingency plans to mitigate the impact generated from disruptions. They reroute undelivered orders to alternative buyers and switch excess demand to different suppliers. We show that, as long as firms have large initial equity buffers, network fragility is low if both buyer and supplier diversification is low. We argue that vertical mergers reduce network fragility by decreasing contagion across tiers, while horizontal mergers may lead to a more fragile network if a non-systemically important firm fundamentally defaults.
+          </div>
+        </ul></td>
         
-          <li><strong>The Geography of Beliefs</strong> <br><i>Raman Uppal</i></li>
-    
-          <li><strong>Social Networks and the Market for News</strong> <br><i>David McAdams</i></li>      
-    
-          <li><strong>Inequality and Social Learning</strong> <br><i>James Siderius and Mohamed Mostagir</i></li>
-        </ul></td>
-        <td style="width:27%;"valign="top">
-          <u><strong>Production Networks</strong></u>
-          <ul>
-
-          <li><strong>Industry Returns in Global Value Chains: The Role of Upstreamness and Downstreamness</strong> <br><i>Steffen Windmuller</i></li>
-          
-          <li><strong>Optimal Monetary Policy in Production Networks</strong> <br><i>Alireza Tahbaz-Salehi and Jennifer La'O</i></li>
-
-          <li><strong>Disruption and Rerouting in Supply Chain Networks</strong> <br><i>John Birge</i></li>      
-
-          <li><strong>Production Network Dynamics and the Propagation of Shocks</strong> <br><i>Federico Huneeus</i></li>    
-        </ul></td>
-        <td style="width:27%;"valign="top">
-          <u><strong>Econometrics: Applied</strong></u>
-          <ul>
-  
-          <li><strong>The Role of Referrals in Inequality, Immobility, and Inefficiency in Labor Markets</strong> <br><i>Lukas Bolte</i></li>
-          
-          <li><strong>The Local Structures of Human Mobility in Chicago</strong> <br><i>James Saxon</i></li>
-  
-          <li><strong>More than Friends: Peer Effects and Beliefs in the Formation of Social and Academic Skills</strong> <br><i>Román Andrés Zárate</i></li>    
-          
-          <li><strong>Recovering Network Structure from Aggregated Relational Data using Penalized Regression</strong> <br><i>Hossein Alidaee and Eric Auerbach</i></li>  
-        </ul></td>
       </tr>
   </tbody>
 </table>
