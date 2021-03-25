@@ -2,11 +2,11 @@ import pandas as pd
 
 df = pd.read_excel("/Users/rithvikrao/Desktop/list.xlsx")
 
-# date = "3/26/2021"
-# sessions = ["Applied and Experimental Misc", "Beliefs", "Methodology and Statistics", "Production and Financial Networks"]
+date = "3/26/2021"
+sessions = ["Applied and Experimental Misc", "Beliefs", "Methodology and Statistics", "Production and Financial Networks"]
 
-date = "3/27/2021"
-sessions = ["Applied Micro", "Econometrics", "Network Formation", "Peer Effects"]
+# date = "3/27/2021"
+# sessions = ["Applied Micro", "Econometrics", "Network Formation", "Peer Effects"]
 
 selection = df[(df['Date'] == date) & (df['Poster or Open'] == "Poster")]
 
@@ -25,6 +25,7 @@ for i, session in enumerate(sessions):
                 print(f"""  <a href="{paper_link}">Paper Link</a> | <a href="{additional_link}">Additional Link</a></li>""")
             else:
                 print(f"""  <a href="{paper_link}">Paper Link</a></li>""")
+        else: print(f""" </li>""")
         print(f"""  <button type="button" class="collapsible">Abstract</button>""")
         print(f"""  <div class="content2" style="font-size:12px">""")
         print(f"""    {abstract}""")
